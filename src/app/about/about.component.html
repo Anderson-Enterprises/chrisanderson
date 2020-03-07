@@ -1,0 +1,7 @@
+<p>about works!</p>
+
+<span *ngIf='weather.length'>Hello</span>
+
+<div *ngFor='let item of weather'>
+    <div>{{ item.summary }} : {{ item.temperatureC }} : {{ item.date }}</div>
+</div>
