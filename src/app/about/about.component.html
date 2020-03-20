@@ -1,7 +1,18 @@
 <p>about works!</p>
 
+<div class="k-block">
+    <button kendoButton [look]="'default'">Default Button</button>
+    <button kendoButton [look]="'outline'">Outline Button</button>
+    <button kendoButton [look]="'flat'">Flat Button</button>
+    <button kendoButton [look]="'default'">Default Button</button>
+</div> 
+
+<div class="alert alert-warning" role="alert">A simple primary alert</div>
+
 <span *ngIf='weather.length'>Hello</span>
 
 <div *ngFor='let item of weather'>
     <div>{{ item.summary }} : {{ item.temperatureC }} : {{ item.date }}</div>
 </div>
+
+
